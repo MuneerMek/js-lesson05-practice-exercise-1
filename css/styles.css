@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  overflow: scroll;
 }
 
 body {
@@ -44,9 +45,15 @@ img {
 
 .switch-container {
   text-align: center;
-  padding-bottom: 2em;
   display: flex;
   align-items: center;
+}
+
+.switch-buttons {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 0.75rem;
 }
 
 .switch-container p {
